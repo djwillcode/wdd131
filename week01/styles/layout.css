@@ -1,0 +1,57 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+a:visited {
+    color: black;
+}
+
+
+body {
+    display: grid;
+    grid-template: auto 1fr auto / 1fr 2fr 1fr;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    grid-column: 1/4;
+}
+
+.left-sidebar {
+    grid-column: 1/2;
+}
+
+main {
+    grid-column: 1fr;
+}
+
+.right-sidebar {
+    grid-column: 3/4;
+}
+
+footer {
+    grid-column: 1/4;
+}
+
+.padding20px {
+    padding: 20px;
+}
+
+.purple {
+    background-color: purple;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
