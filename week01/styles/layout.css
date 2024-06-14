@@ -25,7 +25,7 @@ header {
 }
 
 main {
-    grid-column: 1fr;
+    grid-column: 2/3;
 }
 
 main img {
