@@ -28,6 +28,11 @@ main {
     grid-column: 1fr;
 }
 
+main img {
+    width: 100%;
+    height: auto;
+}
+
 .right-sidebar {
     grid-column: 3/4;
 }
