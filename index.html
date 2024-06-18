@@ -1,13 +1,67 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
-    <meta name="description" content="description of page using keywords">
-    <meta name="author" content="Derek T.">
+    <title>WDD 131 - Dynamic Web Fundamentals - Derek Temblor</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Derek Joseph Temblor. This is a BYUI project for the sake of web development.">
+    <meta name="author" content="Derek Temblor">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WDD 131 - Derek</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Derek Temblor</h1>
+        <nav>
+            <ul>
+                <li><a href="#">LinkdIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                </li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/12?lang=eng&id=p9#p9">Scriptures</a></li>
+                <li><a href="#">Final Project</a></li>
+                <li><a href="#">sample link</a></li>
+                <li><a href="#">example link</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="card-container">
+            <section class="card">
+                <h2>H2 sample heading</h2>
+                <img src="https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="snowy sample img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis autem expedita perspiciatis, architecto quaerat quae? Consequuntur doloremque maiores similique. Eius amet sunt quis iure totam dolore explicabo? Molestiae, ab quos.</p>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Snowy_Mountains">Snowy Mountains</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Snowy_Mountains">Snowy Mountains</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Snowy_Mountains">Snowy Mountains</a></li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>H2 sample heading</h2>
+                <img src="https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="snowy sample img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus perspiciatis totam est natus saepe magni, ducimus error illo explicabo eos suscipit voluptates necessitatibus unde aperiam accusamus nesciunt eveniet voluptas officia?</p>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Snowy_Mountains">Snowy Mountains</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Snowy_Mountains">Snowy Mountains</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Snowy_Mountains">Snowy Mountains</a></li>
+                </ul>
+            </section>
+        </div>
+        <span class="invisible" id="full"></span>
+        <span class="invisible" id="world-full"></span>
+        <span class="invisible" id="short"></span>
+        <span class="invisible" id="medium"></span>
+    </main>
+    <footer>
+        <p>
+            <span id="currentYear"></span> | Derek Temblor | Philippines
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 </html>
