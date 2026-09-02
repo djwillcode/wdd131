@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* font-family: Arial, sans-serif; */
+}
+
+header {
+    color: white;
+    background-color: grey;
+    grid-column: 1/4;
+}
+
+footer,
+h1 {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    padding: 0.5rem;
+}
+
+ul {
+    background-color: black;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    align-items: center;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+    /* What is the difference between auto and 100% flex-basis? - turn on link borders to view */
+}
+
+.navigation a {
+    /* color: white; */
+    font-weight: 700;
+    display: block;
+    /* display: block; makes the link take an entire section instead of only being clickable on the text */
+    color: #eee;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation a:hover {
+    text-decoration: underline pink;
+    /* text-decoration-color: yellow; */
+}
+
+main,
+aside,
+footer {
+    padding-bottom: 10rem;
+}
+
+main {
+    background-color: orange;
+    grid-column: 1/3;
+}
+
+aside {
+    grid-column: 3/4;
+}
+
+footer {
+    background-color: greenyellow;
+    grid-column: 1/4;
+}
